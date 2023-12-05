@@ -10,4 +10,6 @@ If you're in the Competitive Fortnite community, you'd know about the term "Stre
 # Will I get banned?
 Absolutely not! Resolution can be defined by anyone, and is not a cheat. This tool simply edits your Fortnite config files (which you can do yourself by going to "%LocalAppData%\FortniteGame\Saved\Config\GameUserSettings.ini")
 
-This tool uses all local environments to find your Fortnite config files, there is no memory editing involved and no chance of being banned. Please use tools with discretion, as you may be installing a virus, or cheat, without even knowing.
+This tool uses all local environments to find your Fortnite config files, there is no memory editing involved and no chance of being banned. 
+
+Please use tools third-party with discretion, as you may be installing a virus, or cheat, without even knowing.
