@@ -1,5 +1,5 @@
 # Virus Checks
-This program is entirely open source, freely viewable, and buildable by the end-user in Visual Studio 2022 with .NET, if you recieve a virus notice for this program it is a false positive. All reputable Anti-Virus softwares mark this program as virus-free: https://imgur.com/a/OpIFlM7
+This program is entirely open source, freely viewable, and buildable by the end-user in Visual Studio 2022 with .NET, if you recieve a virus notice for this program it is a false positive. All reputable Anti-Virus softwares mark this program as virus-free.
 
 # Glow's Res Tool
 Customize your resolution with ease. Glow's Resolution Tool, a simple, lightweight tool to change Fortnite's predefined resolutions.
