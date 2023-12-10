@@ -1,0 +1,36 @@
+﻿<Window x:Class="Resfree.Frontback_End.AspectRatioError"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Resfree.Frontback_End"
+        mc:Ignorable="d"
+        Title="Warning: Black Bars" Height="261" Width="445" Style="{DynamicResource WindowStyle}" Background="{DynamicResource DefaultBackground}" BorderBrush="{DynamicResource BackgroundOpaque}" WindowStyle="None" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Style.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+
+    <WindowChrome.WindowChrome>
+        <WindowChrome 
+        CaptionHeight="0"
+        ResizeBorderThickness="3"
+        UseAeroCaptionButtons="True" />
+    </WindowChrome.WindowChrome>
+    <Grid>
+        <Image HorizontalAlignment="Center" Height="160" Margin="0,10,0,0" VerticalAlignment="Top" Width="285" Source="/Frontback End/blackbars.png"/>
+        <RichTextBox TextChanged="RichTextBox_TextChanged" Margin="85,175,75,19" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White">
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text="If you are receiving black bars after adding a stretched resolution, please follow        tutorial."/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <Button x:Name="okBtn" Content="OK" HorizontalAlignment="Left" Margin="370,208,0,0" VerticalAlignment="Top" Width="65" Height="22" Background="#FF19192B" Foreground="{DynamicResource DefaultColor}" Click="okBtn_Click"/>
+        <Label x:Name="tutorialLbl" Content="this" HorizontalAlignment="Left" Margin="292,196,0,0" VerticalAlignment="Top" Foreground="{DynamicResource DefaultColor}" FontWeight="Bold" Width="23" Cursor="Hand" MouseDown="tutorialLbl_MouseDown"/>
+
+    </Grid>
+</Window>
