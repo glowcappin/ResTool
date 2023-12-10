@@ -1,3 +1,5 @@
+![image](https://github.com/glowcappin/Resfree/assets/139084205/e5c91a5b-44e1-4d94-869c-c623486dd3f8)
+
 # Virus Checks
 This program is entirely open source, freely viewable, and buildable by the end-user in Visual Studio 2022 with .NET, if you receive a virus notice for this program it is a false positive. All reputable Anti-Virus softwares mark this program as virus-free.
 
